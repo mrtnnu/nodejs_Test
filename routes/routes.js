@@ -13,4 +13,8 @@ router.get('/login', function(req, res) {
     //res.send('Contact Us');
 });
 
+router.get('/registro', function(req, res) {
+    res.render('pages/registro');
+});
+
 module.exports = router
