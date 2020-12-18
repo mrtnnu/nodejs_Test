@@ -19,7 +19,5 @@ router.get('/registro', function(req, res) {
 // router.get('/sign_up', function(req, res) {
 //     res.send("HelloWorld");
 // });
-//
-//
-//
+
 module.exports = router
