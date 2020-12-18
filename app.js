@@ -3,6 +3,7 @@ var app = express();
 const bodyParser  = require('body-parser');
 app.use(express.static(__dirname + '/public/'));
 
+
 // Set view engine
 app.set('view engine', 'ejs');
 
