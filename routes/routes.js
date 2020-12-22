@@ -12,10 +12,16 @@ router.get('/login', function(req, res) {
     //res.send('Contact Us');
 });
 
-router.get('/registro', function(req, res) {
-    res.render('pages/registro');
+router.get('/signup', function(req, res) {
+    res.render('pages/signup');
 });
 
+router.get('/rescon', function(req, res) {
+    res.render('pages/reset-password');
+});
+app.get("/tablero", function (req, res) { 
+    res.render("pages/dashboard/index"); 
+}); 
 // router.get('/sign_up', function(req, res) {
 //     res.send("HelloWorld");
 // });
