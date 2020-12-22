@@ -4,9 +4,11 @@ var app = express();
 const bodyParser  = require('body-parser');
 // var flash = require('req-flash');
 // app.use(flash());
+
+// initialize the session
+app.use(session({secret: 'ssshhhhh'}));
+// static files
 app.use(express.static(__dirname + '/public/'));
-
-
 // Set view engine
 app.set('view engine', 'ejs');
 
