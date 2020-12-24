@@ -77,7 +77,7 @@ app.post('/sign_up', function(req,res){
         });
       });
 
-    return res.redirect('/registro'); 
+    return res.redirect('/signup'); 
 }); 
 
 //==============================
