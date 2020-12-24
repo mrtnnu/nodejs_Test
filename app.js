@@ -1,3 +1,6 @@
+// NODE APP.JS
+// http://localhost:3000/index.html
+
 var express = require("express");
 const session = require('express-session');
 var app = express(); 
@@ -77,7 +80,12 @@ app.post('/sign_up', function(req,res){
         });
       });
 
+<<<<<<< HEAD
     return res.redirect('/signup'); 
+=======
+    //return res.redirect('/registro'); 
+    return res.redirect('/login'); 
+>>>>>>> master
 }); 
 
 //==============================
