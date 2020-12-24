@@ -80,8 +80,12 @@ app.post('/sign_up', function(req,res){
         });
       });
 
+<<<<<<< HEAD
+    return res.redirect('/signup'); 
+=======
     //return res.redirect('/registro'); 
     return res.redirect('/login'); 
+>>>>>>> master
 }); 
 
 //==============================
