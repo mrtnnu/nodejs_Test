@@ -8,9 +8,10 @@ $(document).ready(function () {
         }
         showAlert();
     })
-});
+});a
 
 function submitForm(sendData){
+    alert(sendData);
     $.ajax({
         type: "POST",
         url: "/sign_up",
